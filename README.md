@@ -1,5 +1,13 @@
 <h1 align="center"><strong>Neptune Firefox Windows</strong></h1>
 
+## Fork
+
+This fork customizes the Neptune Firefox theme to better match the **Windows UI style** and enhance overall polish. It includes:
+
+- Titlebar buttons repositioned to the **right**, and reordered to match Windows layout: *Minimize → Maximize → Close*
+- **Smooth hover animations** for titlebar buttons and Top Sites tiles
+- A custom **black-to-purple gradient** background for dark mode
+
 **Instructions:** 
 - This theme is compatible with the latest release of Firefox.
 - To enable adaptive colors, you need to install the **[Adaptive Tab Bar Color](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)** extension. 
