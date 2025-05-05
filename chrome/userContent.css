@@ -506,9 +506,14 @@
 		background: url("neptune/image/Abstract_Dreamscapes_Light.png") center/cover fixed !important;
 
 		@media (prefers-color-scheme: dark) {
-			background: url("neptune/image/Abstract_Dreamscapes_Dark.png") center/cover fixed !important;
-		}
-	}
+			background: linear-gradient(180deg,
+                #000000 0%,
+                #120024 40%,
+                #1a013b 75%,
+                #1a013c 100% 
+               ) fixed !important;
+  			}
+		}	
 
 	.non-collapsible-section {
 		padding: 0 !important;
@@ -635,7 +640,18 @@
 
 		.top-sites-list {
 			margin-inline: auto !important;
-			row-gap: unset !important;
+			row-gap: unset !important;	
+		}
+
+		.top-sites-list .top-site-outer {
+			transition: transform 220ms cubic-bezier(.22, .61, .36, 1),
+						box-shadow 220ms cubic-bezier(.22, .61, .36, 1);
+		}
+		  
+		.top-sites-list .top-site-outer:hover,
+		.top-sites-list .top-site-outer:focus-visible {
+		transform: translateY(-4px) scale(1.06);
+		box-shadow: 0 6px 14px rgba(0, 0, 0, .35);
 		}
 	}
 
